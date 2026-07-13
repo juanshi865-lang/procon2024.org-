@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News — PROCON 2024 Best Paper Award</title>
+  <meta name="description" content="Latest news and announcements from the PROCON 2024 Best Paper Award.">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏆</text></svg>">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="site-title">
+      <a href="/">
+        PROCON <span class="separator">|</span> <span class="accent">Best Paper Award</span>
+      </a>
+    </div>
+    <button class="menu-toggle" onclick="document.querySelector('.main-nav').classList.toggle('open')" aria-label="Toggle navigation">☰</button>
+    <nav class="main-nav">
+      <a href="/">Home</a>
+      <a href="/news/" class="active">News</a>
+      <a href="/about.html">About the Award</a>
+      <a href="/scope.html">Scope</a>
+      <a href="/itc.html">ITC Affiliation</a>
+    </nav>
+  </div>
+</header>
+
+<div class="container content-layout">
+  <main class="main-content">
+
+    <nav class="breadcrumb">
+      <a href="/">Home</a>
+      <span>→</span>
+      <span class="current">News</span>
+    </nav>
+
+    <article>
+      <div class="article-header">
+        <h1>News &amp; Announcements</h1>
+      </div>
+
+      <div class="article-body">
+
+        <div class="highlight-box">
+          <strong>📰 15 December 2024 — PROCON 2024 Best Paper Award Announced</strong><br>
+          <a href="/news/yinan-qian-award.html"><em>Adaptive Load Balancing for Multi-Tier CDN Edge Networks: A Reinforcement Learning Approach</em><br>
+          <strong>Author:</strong> Yinan Qian (Pinterest, Inc. / Tufts University)</a>
+        </div>
+
+        <p style="margin-top:24px;">
+          <a href="/">← Back to Home</a>
+        </p>
+
+      </div>
+    </article>
+
+  </main>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-card">
+      <div class="sidebar-card-header">
+        <span class="icon">📰</span>
+        <h3>Latest News</h3>
+      </div>
+      <div class="sidebar-card-body">
+        <ul class="news-list">
+          <li>
+            <span class="date">15 December 2024</span>
+            <a href="/news/yinan-qian-award.html"><strong>Best Paper Award Announced</strong><br>Yinan Qian wins the PROCON 2024 Best Paper Award.</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </aside>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p><strong>PROCON Best Paper Award 2024</strong> — Official informational website</p>
+    <p><a href="https://procon2024.org">procon2024.org</a></p>
+  </div>
+</footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var toggle = document.querySelector('.menu-toggle');
+  var nav = document.querySelector('.main-nav');
+  if (toggle) toggle.addEventListener('click', function() { nav.classList.toggle('open'); });
+  nav.querySelectorAll('a').forEach(function(l) { l.addEventListener('click', function() { nav.classList.remove('open'); }); });
+});
+</script>
+
+</body>
+</html>

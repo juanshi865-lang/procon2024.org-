@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About the PROCON Best Paper Award</title>
+  <meta name="description" content="About the PROCON Best Paper Award — background, selection process, criteria, and significance.">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏆</text></svg>">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="site-title">
+      <a href="/">
+        PROCON <span class="separator">|</span> <span class="accent">Best Paper Award</span>
+      </a>
+    </div>
+    <button class="menu-toggle" onclick="document.querySelector('.main-nav').classList.toggle('open')" aria-label="Toggle navigation">☰</button>
+    <nav class="main-nav">
+      <a href="/">Home</a>
+      <a href="/news/">News</a>
+      <a href="/about.html" class="active">About the Award</a>
+      <a href="/scope.html">Scope</a>
+      <a href="/itc.html">ITC Affiliation</a>
+    </nav>
+  </div>
+</header>
+
+<section class="page-section">
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="/">Home</a>
+      <span>→</span>
+      <span class="current">About the Award</span>
+    </nav>
+
+    <h1>About the PROCON Best Paper Award</h1>
+    <p class="lead">
+      The PROCON Best Paper Award recognizes outstanding research contributions in the field of cloud network
+      programmability, software-defined infrastructure, and intelligent edge-to-cloud systems. The award is
+      presented annually at the International Workshop on Programmability for Cloud Networks and Applications,
+      held in conjunction with the International Teletraffic Congress (ITC).
+    </p>
+
+    <h2>Background</h2>
+    <p>
+      The <strong>PROCON Best Paper Award</strong> was established to celebrate and encourage high-impact 
+      research in the rapidly evolving domain of programmable cloud networks. As cloud infrastructures grow 
+      in scale and complexity — spanning centralized data centers, regional points of presence, and 
+      geographically distributed edge nodes — the need for intelligent, programmable, and automated approaches 
+      to network management and application delivery has become paramount.
+    </p>
+    <p>
+      PROCON is held in conjunction with the <strong>International Teletraffic Congress (ITC)</strong>, the 
+      first international conference in networking science and practice. Founded in 1955, ITC has a 
+      70-year legacy of advancing the theory and practice of communication network performance, modeling, 
+      and design. Technically co-sponsored by the <strong>IEEE Communications Society</strong>, ITC brings 
+      together researchers from industry, network operators, and academia — the three traditional pillars 
+      of the networking community.
+    </p>
+
+    <h2>Selection Process</h2>
+    <p>The Best Paper Award is determined through a rigorous multi-stage process led by the Technical Program Committee (TPC):</p>
+    <ol>
+      <li><strong>Nomination.</strong> TPC members and peer reviewers nominate outstanding papers from the accepted submissions, based on review scores and qualitative feedback.</li>
+      <li><strong>Shortlisting.</strong> The TPC Chairs compile a shortlist of candidate papers, evaluating novelty, technical depth, and relevance to the workshop themes.</li>
+      <li><strong>Committee Deliberation.</strong> The Organizing Committee reviews the shortlisted papers and selects the winning paper through consensus-based evaluation.</li>
+      <li><strong>Presentation.</strong> The award is conferred during the workshop. A certificate of recognition is presented to the author.</li>
+    </ol>
+
+    <h2>Evaluation Criteria</h2>
+    <p>Papers are assessed against four primary criteria:</p>
+    <div class="content-card">
+      <h3>Originality</h3>
+      <p>Does the paper present a novel contribution to cloud network programmability? Does it introduce new concepts, models, or methodologies that advance the state of the art?</p>
+      <h3 style="margin-top:16px;">Technical Quality</h3>
+      <p>Is the methodology sound and rigorous? Are the results validated through appropriate analytical, simulation, or experimental techniques — ideally using production-scale data?</p>
+      <h3 style="margin-top:16px;">Practical Relevance</h3>
+      <p>Does the work address a real operational challenge in cloud network environments? What is its potential to influence practical deployments or industry practices?</p>
+      <h3 style="margin-top:16px;">Clarity and Presentation</h3>
+      <p>Is the paper well-structured and clearly written? Does it effectively communicate its contributions and findings to both academic and industry audiences?</p>
+    </div>
+
+    <h2>Industry &amp; Academic Significance</h2>
+    <p>
+      The PROCON Best Paper Award occupies a unique position at the intersection of academic research and 
+      industrial practice. By focusing on programmability for cloud networks and applications, the award 
+      recognizes work that bridges the gap between theoretical advances in software-defined networking, 
+      network function virtualization, and machine learning, and their practical application in operational 
+      cloud and edge infrastructure.
+    </p>
+    <p>
+      Winning papers are recognized for their potential to influence both future research directions and 
+      real-world network deployments — from CDN optimization and edge computing to 5G/6G network slicing 
+      and AI-driven network operations.
+    </p>
+
+    <h2>ITC Affiliation</h2>
+    <p>
+      PROCON is held in conjunction with the <strong>International Teletraffic Congress (ITC)</strong>, 
+      which was founded in 1955 and is technically co-sponsored by the IEEE Communications Society. 
+      ITC is recognized as the first international conference in networking science and practice, with 
+      a continuous publication record spanning seven decades. All PROCON proceedings inherit ITC's 
+      publication standards and indexing. For more information, visit the 
+      <a href="https://itc-conference.org/" target="_blank">ITC official website</a> or the 
+      <a href="/itc.html">ITC Affiliation page</a>.
+    </p>
+
+    <div class="page-nav">
+      <a href="/">← Back to Home</a>
+      <a href="/scope.html">Workshop Scope →</a>
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <p><strong>PROCON Best Paper Award 2024</strong> — Official informational website</p>
+    <p><a href="https://procon2024.org">procon2024.org</a></p>
+  </div>
+</footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var toggle = document.querySelector('.menu-toggle');
+  var nav = document.querySelector('.main-nav');
+  if (toggle) toggle.addEventListener('click', function() { nav.classList.toggle('open'); });
+  nav.querySelectorAll('a').forEach(function(l) { l.addEventListener('click', function() { nav.classList.remove('open'); }); });
+});
+</script>
+
+</body>
+</html>

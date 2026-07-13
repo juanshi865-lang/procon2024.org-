@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scope & Positioning — PROCON Workshop</title>
+  <meta name="description" content="The scope, positioning, and research areas of the International Workshop on Programmability for Cloud Networks and Applications (PROCON).">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏆</text></svg>">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="site-title">
+      <a href="/">
+        PROCON <span class="separator">|</span> <span class="accent">Best Paper Award</span>
+      </a>
+    </div>
+    <button class="menu-toggle" onclick="document.querySelector('.main-nav').classList.toggle('open')" aria-label="Toggle navigation">☰</button>
+    <nav class="main-nav">
+      <a href="/">Home</a>
+      <a href="/news/">News</a>
+      <a href="/about.html">About the Award</a>
+      <a href="/scope.html" class="active">Scope</a>
+      <a href="/itc.html">ITC Affiliation</a>
+    </nav>
+  </div>
+</header>
+
+<section class="page-section">
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="/">Home</a>
+      <span>→</span>
+      <span class="current">Scope</span>
+    </nav>
+
+    <h1>Scope &amp; Positioning</h1>
+    <p class="lead">
+      PROCON focuses on the programmability, automation, and intelligent orchestration of cloud network
+      infrastructures — spanning centralized data centers, regional points of presence, and distributed
+      edge nodes — with a strong emphasis on practical, deployable solutions.
+    </p>
+
+    <h2>Workshop Scope</h2>
+    <p>
+      The International Workshop on Programmability for Cloud Networks and Applications (PROCON) covers 
+      the full spectrum of topics related to programmable cloud infrastructure, from software-defined 
+      networking and network function virtualization to intelligent edge computing and AI-driven network 
+      operations.
+    </p>
+
+    <div class="content-card">
+      <h3>Core Research Areas</h3>
+      <ul>
+        <li><strong>Cloud Network Programmability</strong> — Software-defined networking (SDN) for cloud data centers, programmable data planes (P4), network function virtualization (NFV)</li>
+        <li><strong>Edge-to-Cloud Architectures</strong> — Multi-tier edge-cloud networking, CDN optimization, traffic steering and load balancing across distributed points of presence</li>
+        <li><strong>Intelligent Network Operations</strong> — AI/ML-driven network management, reinforcement learning for traffic engineering, predictive resource orchestration</li>
+        <li><strong>Content Delivery &amp; Application Acceleration</strong> — CDN architectures, edge caching, DNS-based traffic management, application-layer optimization</li>
+        <li><strong>Network Automation &amp; Orchestration</strong> — Closed-loop network automation, intent-based networking, infrastructure-as-code, zero-touch operations</li>
+        <li><strong>Service Mesh &amp; Application Networking</strong> — Envoy/Istio-based service mesh, API gateways, edge proxy architectures, sidecar networking</li>
+        <li><strong>Observability &amp; Telemetry</strong> — Network monitoring, distributed tracing, performance measurement, anomaly detection in cloud networks</li>
+        <li><strong>5G/6G &amp; Cloud-Native Networking</strong> — Network slicing, edge computing for telecom, cloud-native network functions (CNFs), open RAN programmability</li>
+        <li><strong>Security &amp; Policy in Cloud Networks</strong> — Programmable security policies, network access control, zero-trust networking in cloud environments</li>
+      </ul>
+    </div>
+
+    <h2>Industry Positioning</h2>
+    <p>
+      PROCON is distinguished from general networking conferences by its <strong>dual focus on programmability 
+      and cloud applications</strong>. While larger venues such as IEEE INFOCOM, ACM SIGCOMM, and IEEE ICC 
+      cover cloud networking as one of many topics, PROCON provides a dedicated forum where researchers and 
+      practitioners working on programmable infrastructure, intelligent edge systems, and application delivery 
+      networks can engage deeply with peers facing the same challenges.
+    </p>
+    <p>
+      The workshop is particularly relevant to the <strong>content delivery industry</strong>, where CDN 
+      architectures are evolving toward programmable edge platforms, and the <strong>cloud-native networking 
+      community</strong>, where service mesh, API gateways, and programmable proxies (Envoy, eBPF, P4) are 
+      redefining how applications connect and communicate in distributed cloud environments.
+    </p>
+
+    <h2>Relationship with ITC</h2>
+    <p>
+      PROCON is held in conjunction with the <strong>International Teletraffic Congress (ITC)</strong>, 
+      technically co-sponsored by the <strong>IEEE Communications Society</strong>. As part of the ITC 
+      workshop program, PROCON benefits from ITC's 70-year legacy as the first international conference 
+      in networking science and practice, its rigorous publication standards, and its broad community of 
+      researchers from industry, network operators, and academia.
+    </p>
+
+    <h2>Academic Standing</h2>
+    <p>
+      PROCON proceedings are indexed alongside ITC publications and are available through:
+    </p>
+    <ul>
+      <li><strong>IEEE Xplore</strong> — Full-text access via IEEE Digital Library</li>
+      <li><strong>DBLP Computer Science Bibliography</strong> — Listed under ITC associated workshops</li>
+      <li><strong>Scopus</strong> — Bibliometric database coverage</li>
+      <li><strong>Google Scholar</strong> — Full proceedings indexed</li>
+    </ul>
+
+    <div class="page-nav">
+      <a href="/about.html">← About the Award</a>
+      <a href="/itc.html">ITC Affiliation →</a>
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <p><strong>PROCON Best Paper Award 2024</strong> — Official informational website</p>
+    <p><a href="https://procon2024.org">procon2024.org</a></p>
+  </div>
+</footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var toggle = document.querySelector('.menu-toggle');
+  var nav = document.querySelector('.main-nav');
+  if (toggle) toggle.addEventListener('click', function() { nav.classList.toggle('open'); });
+  nav.querySelectorAll('a').forEach(function(l) { l.addEventListener('click', function() { nav.classList.remove('open'); }); });
+});
+</script>
+
+</body>
+</html>
